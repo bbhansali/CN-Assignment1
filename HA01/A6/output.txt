@@ -1,0 +1,8 @@
+E:\cn>python udpchecksum.py 10.211.55.2 32768 10.211.55.10 8192 computernetworks
+Strings with same checksum are
+computernetworks
+computernetwksor
+computerneortwks
+computerneorkstw
+computernekstwor
+The Checksum is  0x7282
