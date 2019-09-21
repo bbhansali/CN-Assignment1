@@ -1,0 +1,4 @@
+This is the solution for Assignment1 question A6 in which we had to find UDP Checksum and string having same checksum
+The program takes 5 commandline inputs Source IP(refered as s_id) Source port number(s_port) destination Destination IP(d_ip) destination port(d_port) and Data(data) respectively.
+All the input values must be integer
+ex python udpchecksum.py 10.211.55.2 32768 10.211.55.10 8192 ABCD

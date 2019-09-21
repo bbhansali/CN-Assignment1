@@ -1,0 +1,17 @@
+Status codes to be achieved by creating web pages:
+1)200 OK -success
+2)302 Moved Temporarily -redirected
+3)403 failed to authorize -forbidden or not accessible 
+4)404 not found -webpage does not exist
+
+b2.pcapng is the wireshark capture 
+Webpages created on server 202.62.79.36:
+1)status200.html
+2)status302.html
+3)status403.html
+4)status404.html
+
+All webpages can be accessed on http://202.62.79.36/~ks17cs016
+
+
+
