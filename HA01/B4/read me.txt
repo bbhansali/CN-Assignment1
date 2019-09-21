@@ -1,0 +1,10 @@
+wget -d rprustagi.com gives last modifed date as Thu, 22 Aug 2019 17:34:33 GMT
+
+
+By using if-modified since we are checking if the website was modified after a perticular date and time.
+if it was modified status 200 is recieved else 304 is recieved
+
+wget -d --header "if-modified-since:Thu, 22 Aug 2019 17:34:32 GMT" www.rprustagi.com return 200 because 17:34:32 is one sec before last modified date
+
+
+wget -d --header "if-modified-since:Thu, 22 Aug 2019 17:34:33 GMT" www.rprustagi.com return 304 because 17:34:33 is same as last modified date
